@@ -1,0 +1,78 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+[x-cloak] {
+    display: none;
+}
+/***Imagen inicio**/
+                    /**HAY QUE VER LOS ESTILOS QUE ESTAN FUNCIONANDO**/
+.padre {
+    position: relative;    /* para poder posicionar el texto de forma absoluta */
+    display: inline-block; /* para que solo ocupe el ancho de la imagen */
+    margin: 0 auto;
+  }
+
+  .card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    bottom: 30;
+    width: 100%;
+/* posicionada en la esquina inferior derecha */
+  }
+  nav{
+    color: black;
+    text-decoration: none;
+    margin: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #container-menu{
+    margin-left:1em ;
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+  }
+  nav a{
+    color: black;
+    text-decoration: none;
+  }
+.logo{
+    width: 1.8em;
+}
+#usuario{
+    width: 5px;
+}
+#container-sesion{
+    margin-right: 1em;
+}
+
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/** COLORES**/
+.lightyel{
+    background-color: rgba(219, 206, 27, 0.185);
+    }
+/*STYLE LINK**/
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: black;
+}
+.colorHover:hover{
+    background-color: rgba(219, 206, 27, 0.185);
+}
+.prueba{
+    display:flex;
+    flex-direction: row;
+}
+
+
